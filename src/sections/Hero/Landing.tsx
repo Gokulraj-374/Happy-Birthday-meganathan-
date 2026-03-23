@@ -16,8 +16,8 @@ export default function Hero({ onStart }: { onStart: () => void }) {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="z-10 bg-white/5 p-6 sm:p-10 md:p-12 rounded-3xl glass border-glow max-w-[95vw] mx-auto"
       >
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 text-glow bg-clip-text text-transparent bg-gradient-to-r from-romantic-300 via-romantic-500 to-royal-400 text-balance leading-tight">
-          A Special Surprise for Meghanathan
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-glow bg-clip-text text-transparent bg-gradient-to-r from-romantic-300 via-romantic-500 to-royal-400 text-balance leading-tight">
+          A Special Surprise for My Meghanathan Enginra Thayoli...
         </h1>
         <p className="text-lg md:text-2xl text-romantic-100/80 mb-10 max-w-2xl mx-auto text-balance">
           Every moment with you is a gift. Let's take a journey through our beautiful memories.
