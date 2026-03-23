@@ -60,7 +60,7 @@ export default function Finale({ config, onReplay }: FinaleProps) {
         transition={{ duration: 1.5, type: "spring", bounce: 0.4 }}
         className="z-10"
       >
-        <h2 className="text-4xl md:text-7xl font-bold mb-8 text-glow animate-glow drop-shadow-[0_0_15px_rgba(244,63,94,0.5)] bg-clip-text text-transparent bg-gradient-to-r from-romantic-300 via-white to-royal-300">
+        <h2 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-8 text-glow animate-glow drop-shadow-[0_0_15px_rgba(244,63,94,0.5)] bg-clip-text text-transparent bg-gradient-to-r from-romantic-300 via-white to-royal-300 text-balance leading-tight px-4">
           {config.title}
         </h2>
         <p className="text-lg md:text-2xl text-romantic-100/90 font-medium max-w-3xl mx-auto shadow-text leading-relaxed">

@@ -19,12 +19,12 @@ export default function Gallery({ config }: GalleryProps) {
     <section ref={containerRef} className="py-20 px-4 md:px-8">
       <motion.h2
         style={{ opacity: useTransform(scrollYProgress, [0, 0.2], [0, 1]) }}
-        className="text-4xl md:text-6xl font-bold text-center mb-16 text-glow"
+        className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-16 text-glow text-balance px-4"
       >
         {config.title}
       </motion.h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {config.items.map((item, index) => (
           <motion.div
             key={index}
